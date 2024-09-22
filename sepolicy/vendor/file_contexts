@@ -51,3 +51,6 @@
 
 # Displayfeature_xiaomi
 /dev/socket/pps                                                        u:object_r:vendor_pps_socket:s0
+
+/system/bin/suspend_service    u:object_r:suspend_service_exec:s0
+
