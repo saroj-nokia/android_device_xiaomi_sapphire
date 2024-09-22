@@ -1,0 +1,10 @@
+module vendor_hal_displayfeature_xiaomi 1.0;
+
+require {
+    type vendor_hal_displayfeature_xiaomi_default;
+    type vendor_pps_socket;
+    class sock_file write;
+}
+
+# Allow vendor_hal_displayfeature_xiaomi_default to write to vendor_pps_socket
+allow vendor_hal_displayfeature_xiaomi_default vendor_pps_socket:sock_file write;
