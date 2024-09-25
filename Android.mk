@@ -36,6 +36,5 @@ ifeq ($(TARGET_ARCH),arm)
     LOCAL_SHARED_LIBRARIES += libfastcvopt
 else ifeq ($(TARGET_ARCH),arm64)
     LOCAL_SHARED_LIBRARIES += libfastcvopt
-endif
 
 endif
