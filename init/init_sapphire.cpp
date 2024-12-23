@@ -92,7 +92,7 @@ void vendor_load_properties() {
 
     // Override first api level for safetynet
     if (!IsRecoveryMode()) {
-        property_override("ro.product.first_api_level", "32");
+        property_override("ro.product.first_api_level", "33");
     }
 
     // Set hardware revision
